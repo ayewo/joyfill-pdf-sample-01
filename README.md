@@ -5,7 +5,9 @@ This demo is based on the [example React](https://github.com/joyfill/examples/tr
 * **Simple Demo** - See `src/demos/simple`. This demo will show you how to use the Joyfill React SDK to render template and update a template. 
 * **Templates Workflow Demo** - See `src/demos/templates`. This demo shows how to build a template based workflow using the Joyfill SDK. A template based workflow represents a template that will be filled out repeatedly. This "fill out" action generates a document from the original template.
 
-The demo also shows how to display the (filled out) data that was collected by the Joyfill Form created from the template.
+The template was created from a [fillable PDF form](form-survey.pdf) and is used to create a Joyfill Form.
+
+The demo also shows how to display the (filled out) data collected by the Joyfill Form using a [table](src/demos/templates/pages/TableComponent.js) in React.
 
 Demo page:
 ![](images/01.png)
